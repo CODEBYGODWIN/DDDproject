@@ -1,4 +1,4 @@
-package fr.ynov.nuitsduport.billet.billeterie.domaine;
+package fr.ynov.nuitsduport.billet.billeterie.domaine.Billet;
 
 import fr.ynov.nuitsduport.shared.BilletId;
 import fr.ynov.nuitsduport.shared.FullName;

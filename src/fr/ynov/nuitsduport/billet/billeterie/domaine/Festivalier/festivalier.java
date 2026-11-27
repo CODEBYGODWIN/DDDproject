@@ -1,5 +1,6 @@
-package fr.ynov.nuitsduport.billet.festivalier.domaine;
+package fr.ynov.nuitsduport.billet.billeterie.domaine.Festivalier;
 
+import fr.ynov.nuitsduport.billet.billeterie.domaine.festivalierRegistered;
 import fr.ynov.nuitsduport.shared.FullName;
 import fr.ynov.nuitsduport.shared.festivalierId;
 
