@@ -1,0 +1,21 @@
+package fr.ynov.nuitsduport.billet.festivalier.infrastructure;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+
+
+public class InMemoryBilletRepository implements StudentRepository {
+
+    private final Map<BilletId, Billet> billets = new HashMap<>();
+
+    @Override
+    public Optional<Billet> findById(BilletId id) {
+        return Optional.ofNullable(billets.get(id));
+    }
+
+    @Override
+    public void save(Billet billet) {
+        billets.put(billet.id(), billet);
+    }
+}
