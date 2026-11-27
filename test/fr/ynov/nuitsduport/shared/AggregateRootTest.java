@@ -2,8 +2,8 @@ package fr.ynov.nuitsduport.shared;
 
 import org.junit.jupiter.api.Test;
 
-import fr.ynov.nuitsduport.billet.shared.AggregateRoot;
-import fr.ynov.nuitsduport.billet.shared.DomainEvent;
+import fr.ynov.nuitsduport.shared.AggregateRoot;
+import fr.ynov.nuitsduport.shared.DomainEvent;
 
 import java.util.List;
 
