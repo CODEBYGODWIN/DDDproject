@@ -1,4 +1,4 @@
-package fr.ynov.nuitsduport.shared;
+package fr.ynov.nuitsduport.billet.shared;
 
 import java.util.ArrayList;
 import java.util.List;
